@@ -1,42 +1,42 @@
 
 ########################################################################
-# DOT-TOPSHAM CORE
+#dot TOPSHAM UNDERNET CORE
 ########################################################################
 
 #primary / cloudflare hostname here
-80.229.45.245 cerberus.topsham
+92.27.117.115 cerberus.topsham
 
 #dot TOPSHAM UNDERNET
-80.229.45.245 topsham
+92.27.117.115 topsham
 
 #topsham tld 
-80.229.45.245 topsham.topsham tld.topsham
+92.27.117.115 topsham.topsham tld.topsham
 
 #topsham services
-80.229.45.245 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
+92.27.117.115 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
 
 
 
 ########################################################################
-# DOT-TOPSHAM MAIN GRID
+#dot TOPSHAM UNDERNET main grid
 ########################################################################
 
 #exedevs 
 134.209.29.32 exedevs.topsham
 
 #litchlight warcraft @ topsham
-80.229.45.245 litchlight.topsham
-80.229.45.245 warcraft.topsham
+92.27.117.115 litchlight.topsham
+92.27.117.115 warcraft.topsham
 
 #meshworks @ topsham
-80.229.45.245 meshworks.topsham
+92.27.117.115 meshworks.topsham
 
 #topsex @ topsham 
-80.229.45.245 topsex.topsham 
-80.229.45.245 thetopshamexchange.topsham
+92.27.117.115 topsex.topsham 
+92.27.117.115 thetopshamexchange.topsham
 
 #trouts @ topsham 
-80.229.45.245 trouts.topsham
+92.27.117.115 trouts.topsham
  
 #cyclos server @ topsham
 18.184.180.143 cyclos.topsham
@@ -62,21 +62,21 @@
 0.0.0.0 ec2-52-71-255-245.compute-1.amazonaws.com
 
 ########################################################################
-# MESHWORKS - CONVENTIONAL DOMAINS
+
+#new domains
 
 #rhp 
-80.229.45.245 reelhasallandpayne reelhasallandpayne.com www.reelhasallandpayne.com rhandp.topsham reelhasallandpayne.topsham
+92.27.117.115 reelhasallandpayne reelhasallandpayne.topsham www.reelhasallandpayne.topsham
 
-#dart marine
-80.229.45.245 dartmarine.dartmouth
+92.27.117.115 dartmarine.dartmouth
 
 #locally hosted domains
 
 #topsex dot uk
-80.229.45.245 topsex.uk www.topsex.uk topsham.topsex.uk
+92.27.117.115 topsex.uk www.topsex.uk topsham.topsex.uk
  
 #litchlight dot com
-80.229.45.245 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
+92.27.117.115 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
 #local watchdog server currently disabled
 0.0.0.0 dog.litchlight.com
 
