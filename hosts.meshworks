@@ -18,7 +18,6 @@
 92.27.117.115 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
 
 
-
 ########################################################################
 #dot TOPSHAM UNDERNET main grid
 ########################################################################
@@ -71,8 +70,9 @@
 
 
 ########################################################################
-# MeshWorks Grid 20230206
+# MeshWorks Grid 20230303
 ########################################################################
+
 
 
 ########################################################################
@@ -98,6 +98,31 @@
 92.27.117.115 earthside.andrasta www.earthside.andrasta
 
 92.27.117.115 ops.andrasta www.ops.andrasta
+
+
+
+########################################################################
+#dot islands UNDERNET CORE
+########################################################################
+
+#primary / cloudflare hostname here
+92.27.117.115 cerberus.islands
+
+#dot islands UNDERNET
+92.27.117.115 islands
+
+#islands tld 
+92.27.117.115 islands.islands tld.islands
+
+#islands services
+92.27.117.115 admin.islands search.islands smtp.islands mail.islands games.islands dns.islands cloud.islands docker.islands hosts.islands
+
+########################################################################
+#dotISLANDS UNDERNET main grid
+########################################################################
+
+92.27.117.115 www.orbital.islands orbital.islands
+
 
 
 ########################################################################
@@ -181,6 +206,7 @@
 0.0.0.0 fls-na.amazon.com
 
 
+
 ########################################################################
 #BANNED... of course you can unban them on your side by removing the entries below!
 ########################################################################
@@ -199,4 +225,5 @@
 0.0.0.0 ec2-52-71-255-245.compute-1.amazonaws.com
 
 ########################################################################
+
 
