@@ -1,4 +1,4 @@
-# MeshWorks Hosts File 2021.
+# MeshWorks Hosts File 2023.
 The MeshWorks TLD hosts file.
 
 Many thanks to:
