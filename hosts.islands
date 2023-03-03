@@ -1,0 +1,28 @@
+#downloaded from
+#https://github.com/meshworks-domain-registry/MeshWorks-Main-Grid/hosts.islands
+
+########################################################################
+#dot islands UNDERNET CORE
+########################################################################
+
+#primary / cloudflare hostname here
+92.27.117.115 cerberus.islands
+
+#dot islands UNDERNET
+92.27.117.115 islands
+
+#islands tld 
+92.27.117.115 islands.islands tld.islands
+
+#islands services
+92.27.117.115 admin.islands search.islands smtp.islands mail.islands games.islands dns.islands cloud.islands docker.islands hosts.islands
+
+########################################################################
+#dotISLANDS UNDERNET main grid
+########################################################################
+
+92.27.117.115 www.orbital.islands orbital.islands
+
+########################################################################
+# End of custom host records.
+########################################################################
