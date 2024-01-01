@@ -4,24 +4,69 @@
 ########################################################################
 #dot islands UNDERNET CORE
 ########################################################################
+#dotIsland TLD (Contrarian-Extended)
 
-#primary / cloudflare hostname here
-92.27.117.115 cerberus.islands
-
-#dot islands UNDERNET
-92.27.117.115 islands
-
-#islands tld 
-92.27.117.115 islands.islands tld.islands
-
-#islands services
+92.27.117.115 orbital.islands www.orbital.islands
 92.27.117.115 admin.islands search.islands smtp.islands mail.islands games.islands dns.islands cloud.islands docker.islands hosts.islands
 
+
 ########################################################################
-#dotISLANDS UNDERNET main grid
+#dotSark UNDERNET CORE
 ########################################################################
 
-92.27.117.115 www.orbital.islands orbital.islands
+#primary / cloudflare hostname here
+92.27.117.115 cerberus.sark
+
+#dot sark UNDERNET
+92.27.117.115 sark
+
+#sark tld 
+92.27.117.115 www.sark sark.sark tld.sark sark.gov www.sark.sark www.tld.sark www.sark.gov
+
+#sark services
+92.27.117.115 admin.sark search.sark smtp.sark mail.sark games.sark dns.sark cloud.sark docker.sark hosts.sark
+92.27.117.115 www.admin.sark www.search.sark www.smtp.sark www.mail.sark www.games.sark www.dns.sark www.cloud.sark www.docker.sark www.hosts.sark
+
+########################################################################
+
+#sark domains
+
+92.27.117.115 box404.sark www.box404.sark
+92.27.117.115 reelhasallandpayne.sark www.reelhasallandpayne.sark
+92.27.117.115 jba.sark www.jba.sark
+
+########################################################################
+
+########################################################################
+#dotRockall (Sgeir Rocail) UNDERNET CORE
+########################################################################
+
+#primary / cloudflare hostname here
+92.27.117.115 cerberus.rockall
+
+#dot rockall UNDERNET
+92.27.117.115 rockall
+
+#rockall tld 
+92.27.117.115 rockall.rockall tld.rockall rockall.gov www.rockall.rockall www.tld.rockall www.rockall.gov
+
+#sark rockall
+92.27.117.115 admin.rockall search.rockall smtp.rockall mail.rockall games.rockall dns.rockall cloud.rockall docker.rockall hosts.rockall
+92.27.117.115 www.admin.rockall www.search.rockall www.smtp.rockall www.mail.rockall www.games.rockall www.dns.rockall www.cloud.rockall www.docker.rockall www.hosts.rockall
+
+########################################################################
+
+#rockall domains
+
+########################################################################
+# www.Sgeir-Rocail.Org.Uk
+# contrarian domain
+########################################################################
+
+92.27.117.115 www.sgeir-rocail.org.uk sgeir-rocail.org.uk 
+
+########################################################################
+
 
 ########################################################################
 # End of custom host records.
