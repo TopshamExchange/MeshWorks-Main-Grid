@@ -1,4 +1,4 @@
-# MeshWorks Hosts File 2023.
+# MeshWorks Hosts File 2024.
 The MeshWorks TLD hosts file.
 
 Many thanks to:
@@ -12,17 +12,22 @@ Topsham LETS, The Topsham Pound and Topsham Local Exchange.
 Steve Black's Hosts File; 
  https://github.com/StevenBlack/hosts
 
+CWMA
+ https://countesswearmooringassociation.wordpress.com
+
+LitchLight 
+ https://LitchLight.Com 
 
 Instructions:
 Copy the contents of "hosts.meshworks" file ^^ into your "hosts" file...
-... then restart your browser, and visit:
-http://meshworks/
+... then restart your browser, and visit a MeshWorks domain eg.
+http://search.topsham/
 
 
 Linux / Android / MacOS: /etc/hosts
 
 
-The command below (*nix only) will add the dotTopsham TLD to the bottom of your hosts file:
+The command below (*nix only) will add all domains to the bottom of your hosts file:
 
 sudo cp /etc/hosts /etc/hosts.backup && wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/meshworks-domain-registry/MeshWorks-Main-Grid/main/hosts.meshworks -O ->> /etc/hosts
 
@@ -33,11 +38,8 @@ The commands below (Win10+ Only) MAY do the job?
 
 
 set url=https://raw.githubusercontent.com/meshworks-domain-registry/MeshWorks-Main-Grid/main/hosts.meshworks
-
 set file=hosts.meshworks
-
 certutil -urlcache -split -f %url% %file%
-
 echo Done.
 
 
