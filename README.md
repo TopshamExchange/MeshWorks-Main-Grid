@@ -38,8 +38,11 @@ The commands below (Win10+ Only) MAY do the job?
 
 
 set url=https://raw.githubusercontent.com/meshworks-domain-registry/MeshWorks-Main-Grid/main/hosts.meshworks
+
 set file=hosts.meshworks
+
 certutil -urlcache -split -f %url% %file%
+
 echo Done.
 
 
